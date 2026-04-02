@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=Mulish:wght@400;600&display=swap" rel="stylesheet">
 <style>
-
+ 
 /* ================================
    RESET
    ================================ */
@@ -18,7 +18,7 @@ html { scroll-behavior:smooth; }
 body { font-family:'Mulish',sans-serif; background:#F0F5FF; color:#111827; overflow-x:hidden; line-height:1.6; }
 img { max-width:100%; display:block; }
 a { text-decoration:none; }
-
+ 
 /* ================================
    DESIGN TOKENS
    ================================ */
@@ -36,13 +36,13 @@ a { text-decoration:none; }
   --shadow:     0 4px 24px rgba(0,102,204,0.08);
   --shadow-lg:  0 8px 40px rgba(0,102,204,0.14);
 }
-
+ 
 /* ================================
    LAYOUT HELPERS
    ================================ */
 .container  { max-width:1200px; margin:0 auto; padding:0 24px; }
 .section    { padding:88px 0; }
-
+ 
 /* ================================
    TYPOGRAPHY
    ================================ */
@@ -59,7 +59,7 @@ a { text-decoration:none; }
   color:var(--navy); margin-bottom:12px;
 }
 .section-sub { font-size:15px; color:var(--muted); margin-bottom:48px; }
-
+ 
 /* ================================
    BUTTON
    ================================ */
@@ -78,7 +78,7 @@ a { text-decoration:none; }
 }
 .btn-primary:hover { transform:translateY(-2px); box-shadow:0 12px 32px rgba(0,102,204,0.36); }
 .btn-full { width:100%; text-align:center; }
-
+ 
 /* ================================
    HEADER
    ================================ */
@@ -93,7 +93,7 @@ a { text-decoration:none; }
 }
 .logo { font-family:'Unbounded',sans-serif; font-weight:900; font-size:20px; color:var(--navy); }
 .logo span { color:var(--blue); }
-
+ 
 /* ================================
    HERO
    ================================ */
@@ -125,7 +125,7 @@ a { text-decoration:none; }
   animation:blink 2s infinite;
 }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
-
+ 
 .hero h1 {
   font-family:'Unbounded',sans-serif;
   font-size:clamp(28px,4vw,52px); font-weight:900;
@@ -133,11 +133,11 @@ a { text-decoration:none; }
 }
 .hero h1 .accent { color:var(--blue); }
 .hero-sub { font-size:16px; color:#4B5563; line-height:1.7; margin-bottom:28px; }
-
+ 
 .hero-list { list-style:none; margin-bottom:36px; display:flex; flex-direction:column; gap:9px; }
 .hero-list li { display:flex; align-items:center; gap:11px; font-size:14px; color:#374151; }
 .hero-list li::before { content:''; width:7px; height:7px; background:var(--blue); border-radius:50%; flex-shrink:0; }
-
+ 
 .hero-img-wrap { display:flex; justify-content:center; align-items:center; position:relative; }
 .hero-img-glow {
   position:absolute; width:360px; height:360px; border-radius:50%;
@@ -147,7 +147,7 @@ a { text-decoration:none; }
   position:relative; z-index:1; max-width:300px; width:100%;
   filter:drop-shadow(0 16px 40px rgba(0,102,204,0.14));
 }
-
+ 
 /* ================================
    TRUST BAR
    ================================ */
@@ -161,7 +161,7 @@ a { text-decoration:none; }
   flex-wrap:wrap; gap:28px; list-style:none;
 }
 .trust-list li { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:600; color:#374151; }
-
+ 
 /* ================================
    BENEFITS
    ================================ */
@@ -182,7 +182,7 @@ a { text-decoration:none; }
 .benefit-icon { font-size:32px; margin-bottom:16px; }
 .benefit-title { font-family:'Unbounded',sans-serif; font-size:15px; font-weight:700; color:var(--navy); margin-bottom:10px; }
 .benefit-text { font-size:14px; color:var(--muted); line-height:1.7; }
-
+ 
 /* ================================
    GALLERY / CAROUSEL
    ================================ */
@@ -220,7 +220,7 @@ a { text-decoration:none; }
   transition:all 0.2s; padding:0;
 }
 .carousel-dot.active { background:var(--blue); transform:scale(1.3); }
-
+ 
 /* LIGHTBOX */
 .lightbox {
   display:none; position:fixed; inset:0; z-index:1000;
@@ -259,7 +259,7 @@ a { text-decoration:none; }
   color:rgba(255,255,255,0.6); text-transform:uppercase; letter-spacing:2px;
   white-space:nowrap;
 }
-
+ 
 /* ================================
    REVIEWS
    ================================ */
@@ -269,19 +269,19 @@ a { text-decoration:none; }
 .review-stars { color:#F59E0B; font-size:16px; margin-bottom:14px; letter-spacing:2px; }
 .review-text { font-size:15px; color:#111827; line-height:1.7; margin-bottom:16px; font-style:italic; }
 .review-author { font-size:13px; font-weight:600; color:var(--muted); }
-
+ 
 /* ================================
    ORDER
    ================================ */
 .order { background:var(--bg); }
 .order-wrap { display:grid; grid-template-columns:1fr 1fr; gap:50px; align-items:start; }
-
+ 
 .config-label {
   font-family:'Unbounded',sans-serif; font-size:11px; font-weight:700;
   color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin-bottom:12px;
 }
 .config-block { margin-bottom:28px; }
-
+ 
 .size-options { display:flex; gap:14px; }
 .size-btn {
   flex:1; padding:16px 12px; background:var(--white);
@@ -295,7 +295,7 @@ a { text-decoration:none; }
 .size-btn:hover { border-color:#93C5FD; background:#EFF6FF; }
 .size-btn.active { border-color:var(--blue); background:#EFF6FF; box-shadow:0 0 0 3px rgba(0,102,204,0.1); }
 .size-btn.active .size-num { color:var(--blue); }
-
+ 
 .color-options { display:flex; gap:8px; flex-wrap:wrap; }
 .color-btn {
   display:flex; flex-direction:column; align-items:center; gap:6px;
@@ -315,7 +315,7 @@ a { text-decoration:none; }
 .color-btn.active .swatch.red::after { color:#fff; }
 .color-name { font-size:11px; font-weight:600; color:var(--muted); }
 .color-btn.active .color-name { color:var(--blue); }
-
+ 
 .price-block {
   background:var(--white); border:1px solid var(--border);
   border-left:4px solid var(--blue);
@@ -325,11 +325,11 @@ a { text-decoration:none; }
 .price-amount { font-family:'Unbounded',sans-serif; font-size:38px; font-weight:900; color:var(--blue); line-height:1; margin-bottom:5px; transition:all 0.3s; }
 .price-note { font-size:13px; color:var(--light); }
 .price-hint { font-size:12px; color:var(--muted); margin-top:10px; padding:8px 12px; background:var(--card); border-radius:3px; line-height:1.6; }
-
+ 
 .order-form { background:var(--white); border:1px solid #E5E7EB; padding:32px; border-radius:var(--radius); box-shadow:var(--shadow); }
 .order-form h3 { font-family:'Unbounded',sans-serif; font-size:18px; font-weight:700; color:var(--navy); margin-bottom:5px; }
 .order-form > p { font-size:13px; color:var(--muted); margin-bottom:22px; }
-
+ 
 .form-group { margin-bottom:13px; }
 .form-group label { display:block; font-size:11px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px; }
 .form-group input {
@@ -340,19 +340,19 @@ a { text-decoration:none; }
 }
 .form-group input:focus { border-color:var(--blue); background:#fff; box-shadow:0 0 0 3px rgba(0,102,204,0.1); }
 .form-group input::placeholder { color:var(--light); }
-
+ 
 .order-summary { background:var(--card); border:1px solid var(--border); padding:14px; margin-bottom:16px; border-radius:4px; font-size:14px; }
 .summary-row { display:flex; justify-content:space-between; margin-bottom:5px; color:var(--muted); }
 .summary-row:last-child { margin:0; padding-top:10px; border-top:1px solid #E5E7EB; font-weight:700; color:var(--navy); font-size:16px; }
 .summary-row span:last-child { color:var(--blue); }
-
+ 
 .form-note { display:flex; align-items:flex-start; gap:7px; margin-top:12px; font-size:12px; color:var(--light); line-height:1.5; }
-
+ 
 .success-msg { display:none; text-align:center; padding:40px 20px; }
 .success-icon { width:60px; height:60px; background:#EFF6FF; border:2px solid var(--blue); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:26px; color:var(--blue); margin:0 auto 18px; }
 .success-msg h3 { font-family:'Unbounded',sans-serif; font-size:20px; color:var(--blue); margin-bottom:10px; }
 .success-msg p { color:var(--muted); font-size:15px; line-height:1.6; }
-
+ 
 /* ================================
    SPECS
    ================================ */
@@ -365,7 +365,7 @@ a { text-decoration:none; }
 .spec-row:hover { background:#F8FAFF; }
 .spec-name { color:var(--muted); }
 .spec-val { font-weight:600; color:#111827; }
-
+ 
 /* ================================
    FAQ
    ================================ */
@@ -377,7 +377,7 @@ a { text-decoration:none; }
 .faq-q { font-size:13px; color:var(--light); font-weight:600; margin-bottom:7px; display:flex; align-items:flex-start; gap:8px; }
 .faq-q::before { content:'?'; width:18px; height:18px; min-width:18px; background:#F3F4F6; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:900; border-radius:50%; color:var(--muted); }
 .faq-a { font-size:14px; color:#374151; line-height:1.65; padding-left:26px; }
-
+ 
 .delivery-box { padding:32px; background:var(--white); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); }
 .delivery-box h3 { font-family:'Unbounded',sans-serif; font-size:17px; font-weight:700; color:var(--navy); margin-bottom:22px; }
 .delivery-steps { display:flex; flex-direction:column; gap:18px; }
@@ -385,7 +385,7 @@ a { text-decoration:none; }
 .step-num { width:30px; height:30px; min-width:30px; background:linear-gradient(135deg,var(--blue),var(--blue-dark)); color:#fff; font-family:'Unbounded',sans-serif; font-size:12px; font-weight:900; display:flex; align-items:center; justify-content:center; border-radius:50%; }
 .step-body { font-size:14px; color:#374151; line-height:1.6; }
 .step-body strong { color:var(--navy); display:block; margin-bottom:2px; font-weight:700; }
-
+ 
 /* ================================
    FOOTER
    ================================ */
@@ -393,7 +393,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
 .footer-logo { font-family:'Unbounded',sans-serif; font-size:20px; font-weight:900; color:#fff; margin-bottom:10px; }
 .footer-logo span { color:#60A5FA; }
 .footer-text { font-size:13px; color:rgba(255,255,255,0.38); max-width:380px; margin:0 auto; line-height:1.7; }
-
+ 
 /* ================================
    STICKY BAR
    ================================ */
@@ -409,13 +409,13 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
 .sticky-info span { color:#60A5FA; }
 .sticky-btn { background:linear-gradient(135deg,var(--blue),var(--blue-dark)); color:#fff; font-family:'Unbounded',sans-serif; font-size:12px; font-weight:800; padding:12px 24px; border:none; cursor:pointer; border-radius:2px; transition:all 0.2s; }
 .sticky-btn:hover { transform:translateY(-1px); }
-
+ 
 /* ================================
    FADE IN ANIMATION
    ================================ */
 .fade { opacity:0; transform:translateY(14px); transition:opacity 0.55s, transform 0.55s; }
 .fade.in { opacity:1; transform:translateY(0); }
-
+ 
 /* ================================
    RESPONSIVE
    ================================ */
@@ -437,11 +437,11 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
   .gallery-item img{ width:320px; height:240px; }
   .sticky          { flex-direction:column; gap:10px; text-align:center; }
 }
-
+ 
 </style>
 </head>
 <body>
-
+ 
 <!-- ================================
      HEADER
      ================================ -->
@@ -449,7 +449,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
   <div class="logo">My<span>Vent</span></div>
   <a href="#order" class="btn btn-primary" style="padding:10px 20px;font-size:12px;">Замовити</a>
 </header>
-
+ 
 <!-- ================================
      HERO
      ================================ -->
@@ -481,7 +481,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     </div>
   </div>
 </section>
-
+ 
 <!-- ================================
      TRUST BAR
      ================================ -->
@@ -495,7 +495,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     </ul>
   </div>
 </div>
-
+ 
 <!-- ================================
      BENEFITS
      ================================ -->
@@ -522,7 +522,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     </div>
   </div>
 </section>
-
+ 
 <!-- ================================
      GALLERY / CAROUSEL
      ================================ -->
@@ -532,7 +532,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     <h2 class="section-title">VENTS Solid в інтер'єрах</h2>
     <p class="section-sub">Вентилятор вписується в будь-який стиль ванної кімнати</p>
   </div>
-
+ 
   <div class="carousel-wrap">
     <div class="carousel-track" id="carousel-track">
       <div class="carousel-slide" onclick="openLightbox(0)">
@@ -555,7 +555,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     <button class="carousel-btn prev" onclick="carouselMove(-1)">‹</button>
     <button class="carousel-btn next" onclick="carouselMove(1)">›</button>
   </div>
-
+ 
   <div class="carousel-dots" id="carousel-dots">
     <button class="carousel-dot active" onclick="carouselGo(0)"></button>
     <button class="carousel-dot" onclick="carouselGo(1)"></button>
@@ -563,7 +563,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     <button class="carousel-dot" onclick="carouselGo(3)"></button>
   </div>
 </section>
-
+ 
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
   <button class="lightbox-close" onclick="closeLightbox()">×</button>
@@ -572,7 +572,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
   <button class="lightbox-next" onclick="lbMove(1);event.stopPropagation()">›</button>
   <div class="lightbox-caption" id="lightbox-caption"></div>
 </div>
-
+ 
 <!-- ================================
      REVIEWS
      ================================ -->
@@ -599,7 +599,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     </div>
   </div>
 </section>
-
+ 
 <!-- ================================
      ORDER
      ================================ -->
@@ -609,7 +609,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     <h2 class="section-title">Замовте зараз — відправимо за 1-2 дні</h2>
     <p class="section-sub">Оберіть модель і колір — менеджер зателефонує протягом 30 хвилин</p>
     <div class="order-wrap">
-
+ 
       <div>
         <div class="config-block">
           <div class="config-label">Діаметр повітропроводу</div>
@@ -626,7 +626,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
             </button>
           </div>
         </div>
-
+ 
         <div class="config-block">
           <div class="config-label">Колір корпусу</div>
           <div class="color-options">
@@ -637,7 +637,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
             <button class="color-btn" onclick="setColor('alum','Алюміній',2138)" id="calum"><div class="swatch alum"></div><span class="color-name">Алюміній</span></button>
           </div>
         </div>
-
+ 
         <div class="price-block">
           <div class="price-model" id="price-model">VENTS 100 Solid · Білий</div>
           <div class="price-amount" id="price-amount">2 138 грн</div>
@@ -645,7 +645,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
           <div class="price-hint">⬜ Білий та 🪨 Алюміній — 2 138 грн<br>🟫 Бежевий, 🔴 Червоний, ⬛ Чорний — 2 325 грн</div>
         </div>
       </div>
-
+ 
       <div>
         <div class="order-form" id="order-form">
           <h3>Залишити заявку</h3>
@@ -673,11 +673,11 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
           <p>Дякуємо! Менеджер зателефонує протягом 30 хвилин для підтвердження замовлення та уточнення адреси доставки.</p>
         </div>
       </div>
-
+ 
     </div>
   </div>
 </section>
-
+ 
 <!-- ================================
      SPECS
      ================================ -->
@@ -711,7 +711,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     </div>
   </div>
 </section>
-
+ 
 <!-- ================================
      FAQ
      ================================ -->
@@ -762,7 +762,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
     </div>
   </div>
 </section>
-
+ 
 <!-- ================================
      FOOTER
      ================================ -->
@@ -770,7 +770,7 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
   <div class="footer-logo">My<span>Vent</span></div>
   <p class="footer-text">Офіційний дистриб'ютор вентиляторів VENTS в Україні.<br>Доставка Новою поштою по всій країні · 1–2 дні</p>
 </footer>
-
+ 
 <!-- ================================
      STICKY BAR
      ================================ -->
@@ -778,14 +778,14 @@ footer { padding:48px 24px 36px; background:var(--navy); text-align:center; }
   <div class="sticky-info">VENTS Solid · від <span>2 138 грн</span> · доставка 1-2 дні</div>
   <a href="#order" class="sticky-btn">Замовити →</a>
 </div>
-
+ 
 <script>
 /* === STATE === */
 let size = 100, colorId = 'white', colorName = 'Білий', price = 2138;
-
+ 
 const BOT  = '8698297187:AAETuxTGwo8Gdz6JTNvhahU2pmTB6lio9i0';
 const CHAT = '-1003836361286';
-
+ 
 /* === CONFIGURATOR === */
 function setSize(s) {
   size = s;
@@ -793,18 +793,18 @@ function setSize(s) {
   document.getElementById('s' + s).classList.add('active');
   updateUI();
 }
-
+ 
 function setColor(id, name, p) {
   colorId = id; colorName = name; price = p;
   document.querySelectorAll('.color-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('c' + id).classList.add('active');
   updateUI();
 }
-
+ 
 function fmt(p) {
   return p.toLocaleString('uk-UA') + ' грн';
 }
-
+ 
 function updateUI() {
   const model = 'VENTS ' + size + ' Solid';
   document.getElementById('price-model').textContent  = model + ' · ' + colorName;
@@ -813,18 +813,18 @@ function updateUI() {
   document.getElementById('sum-color').textContent    = colorName;
   document.getElementById('sum-price').textContent    = fmt(price);
 }
-
+ 
 /* === ORDER === */
 async function submitOrder() {
   const name  = document.getElementById('inp-name').value.trim();
   const phone = document.getElementById('inp-phone').value.trim();
   if (!name)             { alert("Будь ласка, вкажіть ваше ім'я"); return; }
   if (phone.length < 10) { alert('Будь ласка, вкажіть коректний номер телефону'); return; }
-
+ 
   const btn = document.getElementById('submit-btn');
   btn.disabled = true;
   btn.textContent = 'Відправляємо...';
-
+ 
   const model = 'VENTS ' + size + ' Solid';
   const text  =
     '🛒 *Нове замовлення MyVent!*\n\n' +
@@ -834,7 +834,7 @@ async function submitOrder() {
     '👤 Імʼя: ' + name + '\n' +
     '📞 Телефон: ' + phone + '\n\n' +
     '🕐 ' + new Date().toLocaleString('uk-UA');
-
+ 
   try {
     const res  = await fetch('https://api.telegram.org/bot' + BOT + '/sendMessage', {
       method: 'POST',
@@ -852,22 +852,22 @@ async function submitOrder() {
     alert('Виникла помилка. Будь ласка, спробуйте ще раз.');
   }
 }
-
+ 
 /* === STICKY BAR === */
 window.addEventListener('scroll', () => {
   document.getElementById('sticky').classList.toggle('show', window.scrollY > 400);
 }, { passive: true });
-
+ 
 /* === CAROUSEL === */
 const slides = document.querySelectorAll('.carousel-slide');
 const dots   = document.querySelectorAll('.carousel-dot');
 const track  = document.getElementById('carousel-track');
 let current  = 0;
 let autoTimer;
-
+ 
 const captions = ['Сучасний стиль','Марокканський стиль','Скандинавський стиль','Лофт стиль'];
 const images   = ['images/interior-1.png','images/interior-2.png','images/interior-3.png','images/interior-4.png'];
-
+ 
 function carouselGo(idx) {
   current = (idx + slides.length) % slides.length;
   track.style.transform = `translateX(-${current * 100}%)`;
@@ -880,7 +880,7 @@ function resetAuto() {
   autoTimer = setInterval(() => carouselMove(1), 4000);
 }
 resetAuto();
-
+ 
 /* Touch swipe */
 let ts = 0;
 track.addEventListener('touchstart', e => { ts = e.touches[0].clientX; }, { passive:true });
@@ -888,7 +888,7 @@ track.addEventListener('touchend',   e => {
   const diff = ts - e.changedTouches[0].clientX;
   if (Math.abs(diff) > 40) carouselMove(diff > 0 ? 1 : -1);
 });
-
+ 
 /* === LIGHTBOX === */
 let lbIdx = 0;
 function openLightbox(idx) {
@@ -914,7 +914,7 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight')  lbMove(1);
   if (e.key === 'ArrowLeft')   lbMove(-1);
 });
-
+ 
 /* === FADE IN === */
 const io = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
